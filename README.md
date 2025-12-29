@@ -179,7 +179,16 @@ streamlit run dashboard/app.py
 - Port conflict: change ports in `docker-compose.yml` if 8000 or 8501 are in use.
 
 ## Contributing
-Issues and PRs are welcome. If you want to add new scenarios or detectors, open an issue first so we can align on scope.
+Issues and PRs are welcome. If you want to add new scenarios or detectors, open an issue first so we can align on scope. If you open a PR, please add a short description and screenshots/logs if it changes the UI or detection behavior.
+
+### Pull request checklist
+- Describe the change clearly
+- Note any new dependencies
+- Add screenshots/logs for UI or detection changes
+- Update README if behavior changes
+
+### Code of conduct
+Be respectful and constructive. This is a learning-focused open-source project.
 
 ## FAQ
 Q: Why Linux-only in v1?  
@@ -190,6 +199,9 @@ A: The detector needs warmup data to learn normal behavior.
 
 Q: Is this using real production logs?  
 A: v1 uses a simulator to keep the demo self-contained and safe.
+
+## Attribution
+If you use this project, please keep the license notice and consider crediting the author (see `CITATION.cff` and `AUTHORS`).
 
 ## Where data is saved
 - SQLite DB lives in `data/ops_radar.db`
