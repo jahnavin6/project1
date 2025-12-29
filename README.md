@@ -203,6 +203,12 @@ A: v1 uses a simulator to keep the demo self-contained and safe.
 ## Attribution
 If you use this project, please keep the license notice and consider crediting the author (see `CITATION.cff` and `AUTHORS`).
 
+## How to cite
+If you use this project in a paper, blog, or demo, please cite it using `CITATION.cff` or mention:
+- Project: Live Ops Anomaly Radar
+- Author: Jahnavi Nuthalapati
+- Repo: https://github.com/jahnavin6/project1
+
 ## Where data is saved
 - SQLite DB lives in `data/ops_radar.db`
 - Incidents and metrics are persisted between restarts
